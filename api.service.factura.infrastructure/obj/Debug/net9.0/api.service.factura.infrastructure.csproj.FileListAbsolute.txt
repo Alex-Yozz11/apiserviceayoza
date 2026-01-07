@@ -1,0 +1,17 @@
+/home/user/apiserviceayoza/api.service.factura.infrastructure/bin/Debug/net9.0/api.service.factura.infrastructure.deps.json
+/home/user/apiserviceayoza/api.service.factura.infrastructure/bin/Debug/net9.0/api.service.factura.infrastructure.runtimeconfig.json
+/home/user/apiserviceayoza/api.service.factura.infrastructure/bin/Debug/net9.0/api.service.factura.infrastructure.dll
+/home/user/apiserviceayoza/api.service.factura.infrastructure/bin/Debug/net9.0/api.service.factura.infrastructure.pdb
+/home/user/apiserviceayoza/api.service.factura.infrastructure/bin/Debug/net9.0/api.service.factura.domain.dll
+/home/user/apiserviceayoza/api.service.factura.infrastructure/bin/Debug/net9.0/api.service.factura.domain.pdb
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.csproj.AssemblyReference.cache
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.AssemblyInfoInputs.cache
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.AssemblyInfo.cs
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.csproj.CoreCompileInputs.cache
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.serv.E25F9A9A.Up2Date
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.dll
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/refint/api.service.factura.infrastructure.dll
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.pdb
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.genruntimeconfig.cache
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/ref/api.service.factura.infrastructure.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "E3/ZGL1ZlTYKY+zZ5iKXbTxfHbq5P+FfIKrdo09/Ems=",
+  "Source": "api.service.factura.presentation",
+  "BasePath": "_content/api.service.factura.presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

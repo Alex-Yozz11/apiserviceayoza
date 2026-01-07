@@ -1,0 +1,17 @@
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.application.deps.json
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.application.dll
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.application.pdb
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.domain.dll
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.infrastructure.dll
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.domain.pdb
+/home/user/apiserviceayoza/api.service.factura.application/bin/Debug/net9.0/api.service.factura.infrastructure.pdb
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.csproj.AssemblyReference.cache
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.AssemblyInfoInputs.cache
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.AssemblyInfo.cs
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.csproj.CoreCompileInputs.cache
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.serv.5DAD9E56.Up2Date
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.dll
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/refint/api.service.factura.application.dll
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/api.service.factura.application.pdb
+/home/user/apiserviceayoza/api.service.factura.application/obj/Debug/net9.0/ref/api.service.factura.application.dll

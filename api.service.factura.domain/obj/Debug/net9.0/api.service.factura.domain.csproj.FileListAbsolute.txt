@@ -1,0 +1,11 @@
+/home/user/apiserviceayoza/api.service.factura.domain/bin/Debug/net9.0/api.service.factura.domain.deps.json
+/home/user/apiserviceayoza/api.service.factura.domain/bin/Debug/net9.0/api.service.factura.domain.dll
+/home/user/apiserviceayoza/api.service.factura.domain/bin/Debug/net9.0/api.service.factura.domain.pdb
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.AssemblyInfoInputs.cache
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.AssemblyInfo.cs
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.csproj.CoreCompileInputs.cache
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.dll
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/refint/api.service.factura.domain.dll
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.pdb
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/ref/api.service.factura.domain.dll

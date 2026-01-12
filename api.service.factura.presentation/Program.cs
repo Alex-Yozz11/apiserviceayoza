@@ -1,41 +1,44 @@
+using api.service.factura.infrastructure;
+using api.service.factura.application;
+using api.service.factura.presentation.endpoints;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+var port = Environment.GetEnvironmentVariable("PORT") ?? "3000";
+var url = $"http://0.0.0.0:{port}";
+
+#region servicios
 builder.Services.AddOpenApi();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddApplicationServices();
+#endregion servicios
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+#region middleware
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.MapOpenApi(); // expone el JSON de OpenAPI
+    app.UseSwagger(); // genera swagger.json
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Factura API v1");
+        c.RoutePrefix = string.Empty; // Swagger en la raíz (http://localhost:3000)
+    });
 }
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+// Endpoints agrupados
+app.MapGroup("/v1/cliente").MapCliente();
+app.MapGroup("/v1/vehiculo").MapVehiculo();
+app.MapGroup("/v1/tipovehiculo").MapTipoVehiculo();
+app.MapGroup("/v1/factura").MapFactura();
+app.MapGroup("/v1/detallefactura").MapDetalleFactura();
+app.MapGroup("/v1/vendedor").MapVendedor();
+#endregion middleware
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-
-app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+app.Run(url);

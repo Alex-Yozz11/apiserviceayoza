@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api.service.factura.presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b73fa6a6530bf83e863b9cab6bf15e3aa5038165")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4d4be795628fb08dea991e376c1dabf17e76f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("api.service.factura.presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api.service.factura.presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

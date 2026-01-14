@@ -1,44 +1,25 @@
-using api.service.factura.infrastructure;
-using api.service.factura.application;
-using api.service.factura.presentation.endpoints;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "3000";
-var url = $"http://0.0.0.0:{port}";
-
-#region servicios
-builder.Services.AddOpenApi();
+// Registrar servicios
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddPersistence(builder.Configuration);
-builder.Services.AddApplicationServices();
-#endregion servicios
-
 var app = builder.Build();
 
-#region middleware
+// Middleware
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi(); // expone el JSON de OpenAPI
-    app.UseSwagger(); // genera swagger.json
-    app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Factura API v1");
-        c.RoutePrefix = string.Empty; // Swagger en la raíz (http://localhost:3000)
-    });
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 
-// Endpoints agrupados
-app.MapGroup("/v1/cliente").MapCliente();
-app.MapGroup("/v1/vehiculo").MapVehiculo();
-app.MapGroup("/v1/tipovehiculo").MapTipoVehiculo();
-app.MapGroup("/v1/factura").MapFactura();
-app.MapGroup("/v1/detallefactura").MapDetalleFactura();
-app.MapGroup("/v1/vendedor").MapVendedor();
-#endregion middleware
-
-app.Run(url);
+app.Run();

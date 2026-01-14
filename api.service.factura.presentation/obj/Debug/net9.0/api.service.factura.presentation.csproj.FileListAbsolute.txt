@@ -135,3 +135,8 @@
 /home/user/apiserviceayoza/api.service.factura.presentation/obj/Debug/net9.0/api.service.factura.presentation.pdb
 /home/user/apiserviceayoza/api.service.factura.presentation/obj/Debug/net9.0/api.service.factura.presentation.genruntimeconfig.cache
 /home/user/apiserviceayoza/api.service.factura.presentation/obj/Debug/net9.0/ref/api.service.factura.presentation.dll
+/home/user/apiserviceayoza/api.service.factura.presentation/obj/Debug/net9.0/api.service.factura.presentation.sourcelink.json
+/home/user/apiserviceayoza/api.service.factura.presentation/bin/Debug/net9.0/Riok.Mapperly.Abstractions.dll
+/home/user/apiserviceayoza/api.service.factura.presentation/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/user/apiserviceayoza/api.service.factura.presentation/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/user/apiserviceayoza/api.service.factura.presentation/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

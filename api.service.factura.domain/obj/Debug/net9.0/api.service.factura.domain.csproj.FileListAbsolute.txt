@@ -9,3 +9,4 @@
 /home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/refint/api.service.factura.domain.dll
 /home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.pdb
 /home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/ref/api.service.factura.domain.dll
+/home/user/apiserviceayoza/api.service.factura.domain/obj/Debug/net9.0/api.service.factura.domain.sourcelink.json

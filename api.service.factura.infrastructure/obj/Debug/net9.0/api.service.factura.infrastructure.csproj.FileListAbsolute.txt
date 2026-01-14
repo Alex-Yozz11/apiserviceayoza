@@ -15,3 +15,4 @@
 /home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.pdb
 /home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.genruntimeconfig.cache
 /home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/ref/api.service.factura.infrastructure.dll
+/home/user/apiserviceayoza/api.service.factura.infrastructure/obj/Debug/net9.0/api.service.factura.infrastructure.sourcelink.json
